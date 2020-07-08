@@ -5,7 +5,7 @@ import logo from "../../assets/img/logo.jpg";
 
 import './style.scss';
 
-const BUFFER = 10;
+const BUFFER = 50;
 
 class Intro extends React.PureComponent {
     constructor(props) {

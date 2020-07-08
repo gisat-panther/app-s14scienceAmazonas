@@ -28,3 +28,12 @@
 	--accent100: #{$lightAccent100};
 	--accent100rgb: #{$lightAccent100rgb};
 }
+
+.s14scienceAmazonas {
+	@include positionFill();
+}
+
+.s14scienceAmazonas-page {
+	margin: m(2) auto;
+	max-width: 60rem;
+}

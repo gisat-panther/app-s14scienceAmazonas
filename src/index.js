@@ -6,9 +6,14 @@ import * as serviceWorker from "./serviceWorker";
 import '@gisatcz/ptr-core/lib/styles/reset.css';
 import '@gisatcz/ptr-core/lib/styles/base.scss';
 import './styles/index.scss';
+import Intro from "./components/Intro";
+import Page from "./components/Page";
 
 ReactDOM.render(
-	<div>s14scienceAmazonas</div>, document.getElementById('ptr')
+	<div className="ptr-light s14scienceAmazonas" id="s14scienceAmazonas">
+		<Intro/>
+		<Page/>
+	</div>, document.getElementById('ptr')
 );
 
 serviceWorker.unregister();

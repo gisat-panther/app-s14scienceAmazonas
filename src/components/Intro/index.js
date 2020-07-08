@@ -1,0 +1,106 @@
+import React from 'react';
+import classnames from 'classnames';
+import Fade from "react-reveal/Fade";
+import logo from "../../assets/img/logo.jpg";
+
+import './style.scss';
+
+const BUFFER = 10;
+
+class Intro extends React.PureComponent {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            fixedHeaderOpen: false
+        };
+
+        window.addEventListener("scroll", this.onWindowScroll.bind(this));
+    }
+
+    onWindowScroll(e) {
+        const position = e.currentTarget.scrollY;
+        const shouldOpenFixedHeader = position > BUFFER;
+
+        if (shouldOpenFixedHeader !== this.state.fixedHeaderOpen) {
+            this.setState({
+                fixedHeaderOpen: shouldOpenFixedHeader
+            });
+        }
+    }
+
+    onNavigate(target) {
+        const targetElement = document.querySelector(target);
+
+        if (targetElement) {
+            targetElement.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    }
+
+    render() {
+        const props = this.props;
+
+        let classes = classnames("s14scienceAmazonas-fixed-intro", {
+            open: this.state.fixedHeaderOpen
+        });
+
+        return (
+            <>
+                <div className="s14scienceAmazonas-intro" id="top">
+                    <div className="s14scienceAmazonas-intro-content">
+                        {this.renderNavigation()}
+                        {this.renderHeader()}
+                    </div>
+                </div>
+                <div className={classes}>
+                    <div className="s14scienceAmazonas-fixed-intro-content">
+                        {this.renderTitle()}
+                        {this.renderNavigation()}
+                    </div>
+                </div>
+            </>
+        );
+    }
+
+    renderTitle() {
+        return (
+            <h1 className="s14scienceAmazonas-title" onClick={this.onNavigate.bind(this, "#top")}>
+                S14Science Amazonas
+            </h1>
+        );
+    }
+
+    renderHeader() {
+        return (
+            <div className="s14scienceAmazonas-header">
+                <div className="s14scienceAmazonas-intro-logo-wrapper">
+                    <img className="s14scienceAmazonas-intro-logo" src={logo}/>
+                </div>
+                <div className="s14scienceAmazonas-header-content">
+                    <div className="s14scienceAmazonas-header-title">
+                        Welcome to the Sentinel-1 for Science Amazonas project
+                    </div>
+                    <div className="s14scienceAmazonas-header-about">
+                        Forests help offset a quarter of anthropogenic emissions of fossil-fuel, and hold up to 70-90% of the Earth’s terrestrial carbon. Sentinel-1 for Science Amazonas is an exploratory scientific project, funded by the European Space Agency (ESA), looking to assess how Sentinel-1 imagery can be used to estimate forest carbon losses and gains associated with land use and land cover changes in the Amazon basin.
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
+    renderNavigation() {
+        return (
+            <div className="s14scienceAmazonas-nav">
+                <div className="s14scienceAmazonas-nav-item" onClick={this.onNavigate.bind(this, "#partners")}>Partners</div>
+                <div className="s14scienceAmazonas-nav-item" onClick={this.onNavigate.bind(this, "#studies")}>Studies</div>
+                <div className="s14scienceAmazonas-nav-item" onClick={this.onNavigate.bind(this, "#news")}>News</div>
+                <div className="s14scienceAmazonas-nav-item" onClick={this.onNavigate.bind(this, "#contact")}>Contact</div>
+            </div>
+        );
+    }
+}
+
+export default Intro;

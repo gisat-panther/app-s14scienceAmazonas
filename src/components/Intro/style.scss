@@ -2,7 +2,7 @@
 
 .s14scienceAmazonas-intro {
   background-color: var(--base10);
-  background-image: url('../../assets/img/background.png');
+  background-image: url('../../assets/img/background.jpg');
   background-size: cover;
   background-position-y: top;
   height: 100%;
@@ -46,7 +46,7 @@
 /* Header */
 .s14scienceAmazonas-header {
   display: flex;
-  padding-top: m(1);
+  padding-top: m(2);
 }
 
 .s14scienceAmazonas-intro-logo-wrapper {
@@ -59,7 +59,7 @@
 
 .s14scienceAmazonas-header-content {
   text-align: right;
-  padding: m(1) 0 0 m(1);
+  padding: m(1/3) m(1/3) 0 m(1);
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -88,6 +88,7 @@
   overflow: hidden;
   box-shadow: 0 2px 3px 0 rgba(0,0,0,0.5);
   z-index: 9999;
+  padding: 0 m(2);
 }
 
 .s14scienceAmazonas-fixed-intro.open {
@@ -140,6 +141,10 @@
   }
 
   /* Fixed header */
+  .s14scienceAmazonas-fixed-intro {
+    padding: 0 m(2/3) 0 0;
+  }
+
   .s14scienceAmazonas-fixed-intro .s14scienceAmazonas-title {
     font-size: $a1;
   }

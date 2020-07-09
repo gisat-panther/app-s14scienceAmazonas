@@ -34,6 +34,40 @@
 }
 
 .s14scienceAmazonas-page {
-	margin: m(2) auto;
-	max-width: 60rem;
+  width: 100%;
+}
+
+.s14scienceAmazonas-page > section {
+  padding: m(3) 0;
+  width: 100%;
+}
+
+.s14scienceAmazonas-page > section:nth-child(odd) {
+  background: var(--base10);
+}
+
+.s14scienceAmazonas-page > section > div {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.s14scienceAmazonas-page > section h2 {
+  margin-top: 0;
+}
+
+.s14scienceAmazonas-page > section ul {
+  margin-left: 1rem;
+}
+
+.s14scienceAmazonas-page > section p {
+  color: var(--base90);
+}
+
+.s14scienceAmazonas-page > section:last-child * {
+  color: var(--base70);
+}
+
+.s14scienceAmazonas-page .credits {
+  margin-top: m(3);
+  font-size: $b1;
 }

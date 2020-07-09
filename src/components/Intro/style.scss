@@ -22,7 +22,7 @@
   text-transform: uppercase;
   cursor: pointer;
   letter-spacing: 1px;
-  color: var(--base80);
+  color: var(--base90);
   border-bottom: 2px solid transparent;
 }
 
@@ -36,11 +36,6 @@
   max-width: calc(80rem + 2*#{m(2)});
   margin: 0 auto;
   padding: m(1) m(2);
-}
-
-.s14scienceAmazonas-title {
-  font-size: $b4;
-  color: var(--base85);
 }
 
 /* Header */
@@ -67,13 +62,14 @@
 
 .s14scienceAmazonas-header-title {
   font-size: $a2;
+  font-weight: bold;
   margin-bottom: m(2/3);
-  color: var(--base80);
+  color: var(--base90);
 }
 
 .s14scienceAmazonas-header-about{
   max-width: 40rem;
-  color: var(--base80);
+  color: var(--base90);
 }
 
   /* Fixed header */

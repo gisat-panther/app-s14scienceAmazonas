@@ -2,11 +2,16 @@ import React from 'react';
 import classnames from 'classnames';
 import Fade from "react-reveal/Fade";
 
+import gisat from "../../assets/img/gisat.png";
+import agresta from "../../assets/img/agresta.png";
+import nls from "../../assets/img/nls.png";
+import nmbu from "../../assets/img/nmbu.png";
+
 class Page extends React.PureComponent {
     render() {
         return (
             <div className="s14scienceAmazonas-page">
-                <section>
+                <section id="about">
                     <div>
                         <h3>PROJECT GOALS</h3>
                         <p>The dense spatial and temporal coverage of the Amazon basin with Sentinel-1 Synthetic Aperture Radar scenes has opened vast potential for capturing the complexity in tropical forest loss and regrowth. Sentinel-1 for Science Amazonas aims to:</p>
@@ -32,6 +37,57 @@ class Page extends React.PureComponent {
                         <h2>MEET OUR TEAM</h2>
 
                         Sentinel-1 for Science Amazonas is led by a consortium of four partners - GISAT (Prime, Czechia, Copernicus service provider), Agresta (Spain, worldwide forest consultancy), Norwegian University of Life Sciences (Norway, leading national academic institution) and the Finnish Geospatial Research Institute (Finland, international innovative scientific research institute). The team uniquely combines complementary and strong backgrounds in forestry and carbon assessments, multi-temporal SAR analysis and data fusion, and large-data processing capabilities.
+                    </div>
+                    <div className="s14scienceAmazonas-partners">
+                        <div className="s14scienceAmazonas-partner-card">
+                            <div>
+                                <div className="s14scienceAmazonas-partner-card-img-wrapper">
+                                    <img src={gisat}/>
+                                </div>
+                                <div className="s14scienceAmazonas-partner-card-title">GISAT s.r.o.</div>
+                                <div className="s14scienceAmazonas-partner-card-subtitle">Prague (CZE)</div>
+                                <div className="s14scienceAmazonas-partner-card-person">Dr. Neha Joshi</div>
+                                <div className="s14scienceAmazonas-partner-card-person">Mr. Lubos Kucera</div>
+                                <div className="s14scienceAmazonas-partner-card-person">Mr. Ondrej Nalevka</div>
+                            </div>
+                        </div>
+                        <div className="s14scienceAmazonas-partner-card">
+                            <div>
+                                <div className="s14scienceAmazonas-partner-card-img-wrapper">
+                                    <img className="smaller" src={agresta}/>
+                                </div>
+                                <div className="s14scienceAmazonas-partner-card-title">AGRESTA S.Coop</div>
+                                <div className="s14scienceAmazonas-partner-card-subtitle">Madrid (ESP)</div>
+                                <div className="s14scienceAmazonas-partner-card-person">Dr. Jessica Esteban</div>
+                                <div className="s14scienceAmazonas-partner-card-person">Dr. Nur Algeet</div>
+                                <div className="s14scienceAmazonas-partner-card-person">Dr. Mariluz Guillén</div>
+                                <div className="s14scienceAmazonas-partner-card-person">Dr. Alfredo Fernández</div>
+                            </div>
+                        </div>
+                        <div className="s14scienceAmazonas-partner-card">
+                            <div>
+                                <div className="s14scienceAmazonas-partner-card-img-wrapper">
+                                    <img src={nmbu}/>
+                                </div>
+                                <div className="s14scienceAmazonas-partner-card-title">Norwegian University of Life Sciences</div>
+                                <div className="s14scienceAmazonas-partner-card-subtitle">Ås (NOR)</div>
+                                <div className="s14scienceAmazonas-partner-card-person">Professor Erik Næsset</div>
+                                <div className="s14scienceAmazonas-partner-card-person">Professor Terje Gobakken</div>
+                            </div>
+                        </div>
+                        <div className="s14scienceAmazonas-partner-card">
+                            <div>
+                                <div className="s14scienceAmazonas-partner-card-img-wrapper">
+                                    <img src={nls}/>
+                                </div>
+                                <div className="s14scienceAmazonas-partner-card-title">Finnish Geospatial Research Institute</div>
+                                <div className="s14scienceAmazonas-partner-card-subtitle">Kirkkonummi (FIN)</div>
+                                <div className="s14scienceAmazonas-partner-card-person">Dr. Mika Karjalainen</div>
+                                <div className="s14scienceAmazonas-partner-card-person">Ms. Samantha Wittke</div>
+                                <div className="s14scienceAmazonas-partner-card-person">Ms. Kirsi Karila</div>
+                                <div className="s14scienceAmazonas-partner-card-person">Dr. Eetu Puttonen</div>
+                            </div>
+                        </div>
                     </div>
                 </section>
                 <section id="studies">

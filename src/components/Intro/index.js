@@ -94,8 +94,9 @@ class Intro extends React.PureComponent {
     renderNavigation() {
         return (
             <div className="s14scienceAmazonas-nav">
+                <div className="s14scienceAmazonas-nav-item" onClick={this.onNavigate.bind(this, "#about")}>About</div>
                 <div className="s14scienceAmazonas-nav-item" onClick={this.onNavigate.bind(this, "#partners")}>Partners</div>
-                <div className="s14scienceAmazonas-nav-item" onClick={this.onNavigate.bind(this, "#studies")}>Studies</div>
+                <div className="s14scienceAmazonas-nav-item" onClick={this.onNavigate.bind(this, "#studies")}>Study sites</div>
                 <div className="s14scienceAmazonas-nav-item" onClick={this.onNavigate.bind(this, "#news")}>News</div>
                 <div className="s14scienceAmazonas-nav-item" onClick={this.onNavigate.bind(this, "#contact")}>Contact</div>
             </div>

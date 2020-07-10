@@ -121,6 +121,10 @@
     height: auto;
   }
 
+  .s14scienceAmazonas-nav-item {
+    margin-bottom: .25rem;
+  }
+
   .s14scienceAmazonas-title {
     font-size: $b3;
   }
@@ -142,7 +146,7 @@
   }
 
   .s14scienceAmazonas-fixed-intro .s14scienceAmazonas-title {
-    font-size: $a1;
+    display: none;
   }
 }
 

@@ -38,7 +38,7 @@
 }
 
 .s14scienceAmazonas-page > section {
-  padding: m(3) 0;
+  padding: m(3) m(1);
   width: 100%;
 }
 
@@ -70,4 +70,61 @@
 .s14scienceAmazonas-page .credits {
   margin-top: m(3);
   font-size: $b1;
+}
+
+/* Partner cards */
+.s14scienceAmazonas-page .s14scienceAmazonas-partners {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100rem;
+  justify-content: center;
+  margin-top: m(2);
+  padding: m(1) m(1) 0;
+}
+
+.s14scienceAmazonas-partner-card {
+  flex: 1;
+  padding: m(5/3) m(1);
+  margin-right: m(1);
+  margin-bottom: m(1);
+  max-width: 20rem;
+  min-width: 15rem;
+  background: var(--base0);
+  box-shadow: 0 0 50px 15px rgba(var(--base100rgb), .1);
+}
+
+.s14scienceAmazonas-partner-card > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.s14scienceAmazonas-partner-card-img-wrapper {
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: m(1);
+}
+
+.s14scienceAmazonas-partner-card img {
+  max-width: 10rem;
+}
+
+.s14scienceAmazonas-partner-card img.smaller {
+  max-width: 8rem;
+}
+
+.s14scienceAmazonas-partner-card-title {
+  font-size: $b2;
+  font-weight: bold;
+  text-align: center;
+}
+
+.s14scienceAmazonas-partner-card-subtitle {
+  color: var(--base60);
+  margin-bottom: m(2/3);
+}
+
+.s14scienceAmazonas-partner-card-person {
+
 }

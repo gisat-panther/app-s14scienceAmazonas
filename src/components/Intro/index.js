@@ -84,7 +84,7 @@ class Intro extends React.PureComponent {
                         Welcome to the Sentinel-1 for Science Amazonas project
                     </div>
                     <div className="s14scienceAmazonas-header-about">
-                        Forests help offset a quarter of anthropogenic emissions of fossil-fuel, and hold up to 70-90% of the Earth’s terrestrial carbon. Sentinel-1 for Science Amazonas is an exploratory scientific project, funded by the European Space Agency (ESA), looking to assess how Sentinel-1 imagery can be used to estimate forest carbon losses and gains associated with land use and land cover changes in the Amazon basin.
+                        Forests help offset a quarter of anthropogenic emissions of fossil-fuel, and hold up to 70&#x2011;90&nbsp;% of the Earth’s terrestrial carbon. Sentinel-1 for Science Amazonas is an exploratory scientific project, funded by the European Space Agency (ESA), looking to assess how Sentinel-1 imagery can be used to estimate forest carbon losses and gains associated with land use and land cover changes in the Amazon basin.
                     </div>
                 </div>
             </div>

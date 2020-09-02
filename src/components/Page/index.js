@@ -89,6 +89,10 @@ class Page extends React.PureComponent {
                             </div>
                         </div>
                     </div>
+                    <div>
+                        <h3>Collaborators & Contributors</h3>
+                        <p>...</p>
+                    </div>
                 </section>
                 <section id="studies">
                     <div>
@@ -107,6 +111,12 @@ class Page extends React.PureComponent {
                         </p>
                     </div>
                 </section>
+                <section id="results">
+                    <div>
+                        <h2>RESULTS</h2>
+                        <p>Results to be published</p>
+                    </div>
+                </section>
                 <section id="news">
                     <div>
                         <h2>NEWS</h2>
@@ -119,13 +129,25 @@ class Page extends React.PureComponent {
                         <div>The S14Science Amazonas project consortium is lead by GISAT s.r.o.</div>
                         <h3>Project coordinator</h3>
                         <div>Dr. Neha Joshi</div>
+                        <div>GISAT s.r.o.</div>
+                        <div>Remote Sensing Specialist</div>
+                        <div>E-mail: neha.joshi@gisat.cz</div>
 
                         <h3>Send us your feedback</h3>
                         <div>GISAT s.r.o., Milady Horakove 57, 170 00 Praha 7, Czech Republic</div>
                         <div>(+420) 270-003-735</div>
                         <div><a href="http://gisat.cz/content/en" target="_blank">www.gisat.cz</a></div>
-
-                        <div className="credits">S1 for Science Amazonas project has received funding from ....</div>
+                    </div>
+                </section>
+                <section id="credits" className="ptr-dark">
+                    <div>
+                        <p>Sentinel-1 for Science Amazonas is funded by the European Space Agency.<br/>Relevant Links: <a href="https://eo4society.esa.int/communities/scientists/esa-carbon-science-cluster/" target="_blank">ESA Carbon Science Cluster</a> | <a href="https://eo4society.esa.int/" target="_blank">EO science for society</a></p>
+                        <h4>ESA - European Space Agency</h4>
+                        <div>Dr. Anca Anghelea</div>
+                        <div>Earth Observation Open Data Scientist</div>
+                        <div>Science, Applications and Climate Department</div>
+                        <div>Directorate of Earth Observation Programmes</div>
+                        <div>anca.anghelea@esa.int | T +39 06 94180 275 | <a href="https://esa.int" target="_blank">www.esa.int</a></div>
                     </div>
                 </section>
 

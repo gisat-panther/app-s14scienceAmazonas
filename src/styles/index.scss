@@ -46,6 +46,15 @@
   background: var(--base10);
 }
 
+.s14scienceAmazonas-page > section:nth-last-child(2){
+  background: var(--base20);
+}
+
+.s14scienceAmazonas-page > section:last-child {
+  background: var(--base0);
+  padding: m(2) m(1);
+}
+
 .s14scienceAmazonas-page > section > div {
   max-width: 50rem;
   margin: 0 auto;
@@ -63,12 +72,12 @@
   color: var(--base90);
 }
 
-.s14scienceAmazonas-page > section:last-child * {
-  color: var(--base70);
+.s14scienceAmazonas-page > section:nth-last-child(2) * {
+  color: var(--base80);
 }
 
-.s14scienceAmazonas-page .credits {
-  margin-top: m(3);
+.s14scienceAmazonas-page > section:last-child * {
+  color: var(--base70);
   font-size: $b1;
 }
 
@@ -78,7 +87,7 @@
   flex-wrap: wrap;
   max-width: 100rem;
   justify-content: center;
-  margin-top: m(2);
+  margin: m(2) 0;
   padding: m(1) m(1) 0;
 }
 

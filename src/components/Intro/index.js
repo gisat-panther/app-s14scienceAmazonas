@@ -76,8 +76,11 @@ class Intro extends React.PureComponent {
     renderHeader() {
         return (
             <div className="s14scienceAmazonas-header">
-                <div className="s14scienceAmazonas-intro-logo-wrapper">
-                    <img className="s14scienceAmazonas-intro-logo" src={logo}/>
+                <div className="s14scienceAmazonas-intro-logos-container">
+                    <div className="s14scienceAmazonas-intro-logo-wrapper">
+                        <img className="s14scienceAmazonas-intro-logo" src={logo}/>
+                    </div>
+                    <a href="https://esa.int" target="_blank"><div className="s14scienceAmazonas-intro-logo-esa"/></a>
                 </div>
                 <div className="s14scienceAmazonas-header-content">
                     <div className="s14scienceAmazonas-header-title">

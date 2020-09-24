@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/app-s14scienceAmazonas/static/css/main.9f0ab53c.chunk.css",
-    "main.js": "/app-s14scienceAmazonas/static/js/main.b2c98365.chunk.js",
-    "main.js.map": "/app-s14scienceAmazonas/static/js/main.b2c98365.chunk.js.map",
+    "main.css": "/app-s14scienceAmazonas/static/css/main.b13e3aab.chunk.css",
+    "main.js": "/app-s14scienceAmazonas/static/js/main.b64b4b6b.chunk.js",
+    "main.js.map": "/app-s14scienceAmazonas/static/js/main.b64b4b6b.chunk.js.map",
     "runtime-main.js": "/app-s14scienceAmazonas/static/js/runtime-main.38d6e2ca.js",
     "runtime-main.js.map": "/app-s14scienceAmazonas/static/js/runtime-main.38d6e2ca.js.map",
     "static/css/2.fcbb9a24.chunk.css": "/app-s14scienceAmazonas/static/css/2.fcbb9a24.chunk.css",
     "static/js/2.a8eb2557.chunk.js": "/app-s14scienceAmazonas/static/js/2.a8eb2557.chunk.js",
     "static/js/2.a8eb2557.chunk.js.map": "/app-s14scienceAmazonas/static/js/2.a8eb2557.chunk.js.map",
     "index.html": "/app-s14scienceAmazonas/index.html",
-    "precache-manifest.575ffb303a30f93cea65d0888958916e.js": "/app-s14scienceAmazonas/precache-manifest.575ffb303a30f93cea65d0888958916e.js",
+    "precache-manifest.ed979f5c9a09b8ac3693646761180742.js": "/app-s14scienceAmazonas/precache-manifest.ed979f5c9a09b8ac3693646761180742.js",
     "service-worker.js": "/app-s14scienceAmazonas/service-worker.js",
     "static/css/2.fcbb9a24.chunk.css.map": "/app-s14scienceAmazonas/static/css/2.fcbb9a24.chunk.css.map",
-    "static/css/main.9f0ab53c.chunk.css.map": "/app-s14scienceAmazonas/static/css/main.9f0ab53c.chunk.css.map",
+    "static/css/main.b13e3aab.chunk.css.map": "/app-s14scienceAmazonas/static/css/main.b13e3aab.chunk.css.map",
     "static/js/2.a8eb2557.chunk.js.LICENSE.txt": "/app-s14scienceAmazonas/static/js/2.a8eb2557.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/app-s14scienceAmazonas/static/media/background.06d5a844.jpg",
     "static/media/logo.jpg": "/app-s14scienceAmazonas/static/media/logo.814a9544.jpg",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.38d6e2ca.js",
     "static/css/2.fcbb9a24.chunk.css",
     "static/js/2.a8eb2557.chunk.js",
-    "static/css/main.9f0ab53c.chunk.css",
-    "static/js/main.b2c98365.chunk.js"
+    "static/css/main.b13e3aab.chunk.css",
+    "static/js/main.b64b4b6b.chunk.js"
   ]
 }

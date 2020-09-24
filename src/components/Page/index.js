@@ -131,7 +131,7 @@ class Page extends React.PureComponent {
                         <div>Dr. Neha Joshi</div>
                         <div>GISAT s.r.o.</div>
                         <div>Remote Sensing Specialist</div>
-                        <div>E-mail: neha.joshi@gisat.cz</div>
+						<div>E-mail: <a href="mailto:neha.joshi@gisat.cz">neha.joshi@gisat.cz</a></div>
 
                         <h3>Send us your feedback</h3>
                         <div>GISAT s.r.o., Milady Horakove 57, 170 00 Praha 7, Czech Republic</div>

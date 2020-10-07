@@ -1,4 +1,5 @@
 import React from 'react';
+import Icon from "../Icon";
 
 import gisat from "../../assets/img/gisat.png";
 import agresta from "../../assets/img/agresta.png";
@@ -134,7 +135,13 @@ class Page extends React.PureComponent {
                 <section id="news">
                     <div>
                         <h2>NEWS</h2>
-                        <p>The progress of Sentinel-1 for Science Amazonas, the release of new datasets and publications will be announced here during the course of the project.</p>
+                        <p>For the latest on the progress of Sentinel-1 for Science Amazonas, the release of new datasets and publications, follow us on:</p>
+						<div className="s14scienceAmazonas-social-networks">
+							<a className="s14scienceAmazonas-social-network linkedin" title="Linkedin"><Icon icon="linkedin"/></a>
+							<a className="s14scienceAmazonas-social-network twitter" title="Twitter"><Icon icon="twitter"/></a>
+							<a className="s14scienceAmazonas-social-network facebook" title="Facebook"><Icon icon="facebook"/></a>
+							<a className="s14scienceAmazonas-social-network researchgate" title="ResearchGate"><Icon icon="researchgate"/></a>
+						</div>
                     </div>
                 </section>
                 <section id="contact" className="ptr-dark">

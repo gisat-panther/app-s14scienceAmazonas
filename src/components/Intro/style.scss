@@ -131,13 +131,53 @@
   border-bottom-color: var(--base0);
 }
 
+.s14scienceAmazonas-social-networks {
+  display: flex;
+}
+
+.s14scienceAmazonas-social-network {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1.5rem;
+  color: var(--base70);
+  transition: color .2s ease-in-out;
+}
+
+.s14scienceAmazonas-social-network.linkedin:hover {
+  color: #0e76a8;
+}
+
+.s14scienceAmazonas-social-network.twitter:hover {
+  color: #00acee;
+}
+
+.s14scienceAmazonas-social-network.facebook:hover {
+  color: #3b5998;
+}
+
+.s14scienceAmazonas-social-network.researchgate:hover {
+  color: #00ccbb;
+}
+
+@media screen and (max-width: 70rem) {
+  .s14scienceAmazonas-fixed-intro .s14scienceAmazonas-title {
+	display: none;
+  }
+}
+
 @media screen and (max-width: 60rem) {
   .s14scienceAmazonas-intro {
     height: auto;
   }
 
   .s14scienceAmazonas-nav-item {
-    margin-bottom: .25rem;
+	margin-bottom: .25rem;
+	font-size: $b1;
+	margin-left: m(2/3);
+	padding: .15rem .5rem;
+	color: var(--base100);
+	border-bottom: 1px solid transparent;
   }
 
   .s14scienceAmazonas-title {
@@ -192,6 +232,10 @@
     flex-direction: column;
   }
 
+  .s14scienceAmazonas-fixed-intro.open {
+	height: 5rem;
+  }
+
   .s14scienceAmazonas-fixed-intro .s14scienceAmazonas-title {
     display: none;
   }
@@ -201,4 +245,26 @@
   .s14scienceAmazonas-fixed-intro.open {
     height: 6rem;
   }
+
+  //.s14scienceAmazonas-nav {
+	//display: flex;
+	//flex-wrap: wrap;
+	//flex: 1;
+	//justify-content: flex-end;
+  //}
+  //
+  //.s14scienceAmazonas-nav-item {
+	//margin-left: m(1);
+	//padding: .15rem .5rem;
+	//text-transform: uppercase;
+	//cursor: pointer;
+	//letter-spacing: 1px;
+	//color: var(--base90);
+	//border-bottom: 2px solid transparent;
+  //}
+  //
+  //.s14scienceAmazonas-nav-item:hover {
+	//color: var(--base100);
+	//border-bottom-color: var(--base100);
+  //}
 }

@@ -1,11 +1,11 @@
 import React from 'react';
-import classnames from 'classnames';
-import Fade from "react-reveal/Fade";
 
 import gisat from "../../assets/img/gisat.png";
 import agresta from "../../assets/img/agresta.png";
 import nls from "../../assets/img/nls.png";
 import nmbu from "../../assets/img/nmbu.png";
+import minnesota from "../../assets/img/minnesota.png";
+import spaceIntelligence from "../../assets/img/spaceIntelligence.png";
 
 class Page extends React.PureComponent {
     render() {
@@ -39,10 +39,10 @@ class Page extends React.PureComponent {
                         Sentinel-1 for Science Amazonas is led by a consortium of four partners - GISAT (Prime, Czechia, Copernicus service provider), Agresta (Spain, worldwide forest consultancy), Norwegian University of Life Sciences (Norway, leading national academic institution) and the Finnish Geospatial Research Institute (Finland, international innovative scientific research institute). The team uniquely combines complementary and strong backgrounds in forestry and carbon assessments, multi-temporal SAR analysis and data fusion, and large-data processing capabilities.
                     </div>
                     <div className="s14scienceAmazonas-partners">
-                        <div className="s14scienceAmazonas-partner-card">
+                        <a href="http://gisat.cz/content/en" target="_blank" rel="noreferrer noopener" className="s14scienceAmazonas-partner-card">
                             <div>
                                 <div className="s14scienceAmazonas-partner-card-img-wrapper">
-                                    <img src={gisat}/>
+                                    <img alt="gisat_logo" src={gisat}/>
                                 </div>
                                 <div className="s14scienceAmazonas-partner-card-title">GISAT s.r.o.</div>
                                 <div className="s14scienceAmazonas-partner-card-subtitle">Prague (CZE)</div>
@@ -50,11 +50,11 @@ class Page extends React.PureComponent {
                                 <div className="s14scienceAmazonas-partner-card-person">Mr. Lubos Kucera</div>
                                 <div className="s14scienceAmazonas-partner-card-person">Mr. Ondrej Nalevka</div>
                             </div>
-                        </div>
-                        <div className="s14scienceAmazonas-partner-card">
+                        </a>
+                        <a href="https://agresta.org/en/" target="_blank" rel="noreferrer noopener" className="s14scienceAmazonas-partner-card">
                             <div>
                                 <div className="s14scienceAmazonas-partner-card-img-wrapper">
-                                    <img className="smaller" src={agresta}/>
+                                    <img alt="agresta_logo" className="smaller" src={agresta}/>
                                 </div>
                                 <div className="s14scienceAmazonas-partner-card-title">AGRESTA S.Coop</div>
                                 <div className="s14scienceAmazonas-partner-card-subtitle">Madrid (ESP)</div>
@@ -63,22 +63,22 @@ class Page extends React.PureComponent {
                                 <div className="s14scienceAmazonas-partner-card-person">Dr. Mariluz Guillén</div>
                                 <div className="s14scienceAmazonas-partner-card-person">Dr. Alfredo Fernández</div>
                             </div>
-                        </div>
-                        <div className="s14scienceAmazonas-partner-card">
+                        </a>
+                        <a href="https://www.nmbu.no/en" target="_blank" rel="noreferrer noopener" className="s14scienceAmazonas-partner-card">
                             <div>
                                 <div className="s14scienceAmazonas-partner-card-img-wrapper">
-                                    <img src={nmbu}/>
+                                    <img alt="nmbu_logo" src={nmbu}/>
                                 </div>
                                 <div className="s14scienceAmazonas-partner-card-title">Norwegian University of Life Sciences</div>
                                 <div className="s14scienceAmazonas-partner-card-subtitle">Ås (NOR)</div>
                                 <div className="s14scienceAmazonas-partner-card-person">Professor Erik Næsset</div>
                                 <div className="s14scienceAmazonas-partner-card-person">Professor Terje Gobakken</div>
                             </div>
-                        </div>
-                        <div className="s14scienceAmazonas-partner-card">
+                        </a>
+                        <a href="https://www.maanmittauslaitos.fi/en/research" target="_blank" rel="noreferrer noopener" className="s14scienceAmazonas-partner-card">
                             <div>
                                 <div className="s14scienceAmazonas-partner-card-img-wrapper">
-                                    <img src={nls}/>
+                                    <img alt="nls_logo" src={nls}/>
                                 </div>
                                 <div className="s14scienceAmazonas-partner-card-title">Finnish Geospatial Research Institute</div>
                                 <div className="s14scienceAmazonas-partner-card-subtitle">Kirkkonummi (FIN)</div>
@@ -87,11 +87,25 @@ class Page extends React.PureComponent {
                                 <div className="s14scienceAmazonas-partner-card-person">Ms. Kirsi Karila</div>
                                 <div className="s14scienceAmazonas-partner-card-person">Dr. Eetu Puttonen</div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div>
                         <h3>Collaborators & Contributors</h3>
-                        <p>...</p>
+                        <p>Sentinel-1 for Science Amazonas is supported by following external consultants:</p>
+						<div className="s14scienceAmazonas-contributors">
+							<a href="https://twin-cities.umn.edu/" target="_blank" rel="noreferrer noopener" className="s14scienceAmazonas-contributor-card">
+								<div className="s14scienceAmazonas-contributor-card-img-wrapper">
+									<img alt="minnesota_logo" src={minnesota}/>
+								</div>
+								<div className="s14scienceAmazonas-contributor-card-title">University of Minnesota</div>
+							</a>
+							<a href="https://www.space-intelligence.com/" target="_blank" rel="noreferrer noopener" className="s14scienceAmazonas-contributor-card">
+								<div className="s14scienceAmazonas-contributor-card-img-wrapper">
+									<img alt="spaceIntelligence_logo" src={spaceIntelligence}/>
+								</div>
+								<div className="s14scienceAmazonas-contributor-card-title">Space Intelligence</div>
+							</a>
+						</div>
                     </div>
                 </section>
                 <section id="studies">
@@ -136,18 +150,18 @@ class Page extends React.PureComponent {
                         <h3>Send us your feedback</h3>
                         <div>GISAT s.r.o., Milady Horakove 57, 170 00 Praha 7, Czech Republic</div>
                         <div>(+420) 270-003-735</div>
-                        <div><a href="http://gisat.cz/content/en" target="_blank">www.gisat.cz</a></div>
+                        <div><a href="http://gisat.cz/content/en" target="_blank" rel="noreferrer noopener">www.gisat.cz</a></div>
                     </div>
                 </section>
                 <section id="credits" className="ptr-dark">
                     <div>
-                        <p>Sentinel-1 for Science Amazonas is funded by the European Space Agency.<br/>Relevant Links: <a href="https://eo4society.esa.int/communities/scientists/esa-carbon-science-cluster/" target="_blank">ESA Carbon Science Cluster</a> | <a href="https://eo4society.esa.int/" target="_blank">EO science for society</a></p>
+                        <p>Sentinel-1 for Science Amazonas is funded by the European Space Agency.<br/>Relevant Links: <a href="https://eo4society.esa.int/communities/scientists/esa-carbon-science-cluster/" target="_blank" rel="noreferrer noopener">ESA Carbon Science Cluster</a> | <a href="https://eo4society.esa.int/" target="_blank" rel="noreferrer noopener">EO science for society</a></p>
                         <h4>ESA - European Space Agency</h4>
                         <div>Dr. Anca Anghelea</div>
                         <div>Earth Observation Open Data Scientist</div>
                         <div>Science, Applications and Climate Department</div>
                         <div>Directorate of Earth Observation Programmes</div>
-                        <div>anca.anghelea@esa.int | T +39 06 94180 275 | <a href="https://esa.int" target="_blank">www.esa.int</a></div>
+                        <div>anca.anghelea@esa.int | T +39 06 94180 275 | <a href="https://esa.int" target="_blank" rel="noreferrer noopener">www.esa.int</a></div>
                     </div>
                 </section>
 

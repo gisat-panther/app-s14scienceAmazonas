@@ -1,6 +1,5 @@
 import React from 'react';
 import classnames from 'classnames';
-import Fade from "react-reveal/Fade";
 import logo from "../../assets/img/logo.jpg";
 
 import './style.scss';
@@ -41,8 +40,6 @@ class Intro extends React.PureComponent {
     }
 
     render() {
-        const props = this.props;
-
         let classes = classnames("s14scienceAmazonas-fixed-intro", {
             open: this.state.fixedHeaderOpen
         });
@@ -78,9 +75,9 @@ class Intro extends React.PureComponent {
             <div className="s14scienceAmazonas-header">
                 <div className="s14scienceAmazonas-intro-logos-container">
                     <div className="s14scienceAmazonas-intro-logo-wrapper">
-                        <img className="s14scienceAmazonas-intro-logo" src={logo}/>
+                        <img alt="project_logo" className="s14scienceAmazonas-intro-logo" src={logo}/>
                     </div>
-                    <a href="https://esa.int" target="_blank"><div className="s14scienceAmazonas-intro-logo-esa"/></a>
+                    <a href="https://esa.int" target="_blank" rel="noreferrer noopener"><div className="s14scienceAmazonas-intro-logo-esa"/></a>
                 </div>
                 <div className="s14scienceAmazonas-header-content">
                     <div className="s14scienceAmazonas-header-title">

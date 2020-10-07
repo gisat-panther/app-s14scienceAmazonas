@@ -1,29 +1,28 @@
 {
   "files": {
-    "main.css": "/app-s14scienceAmazonas/static/css/main.b13e3aab.chunk.css",
-    "main.js": "/app-s14scienceAmazonas/static/js/main.b64b4b6b.chunk.js",
-    "main.js.map": "/app-s14scienceAmazonas/static/js/main.b64b4b6b.chunk.js.map",
+    "main.css": "/app-s14scienceAmazonas/static/css/main.1ef4b9d5.chunk.css",
+    "main.js": "/app-s14scienceAmazonas/static/js/main.ca9c3fe7.chunk.js",
+    "main.js.map": "/app-s14scienceAmazonas/static/js/main.ca9c3fe7.chunk.js.map",
     "runtime-main.js": "/app-s14scienceAmazonas/static/js/runtime-main.38d6e2ca.js",
     "runtime-main.js.map": "/app-s14scienceAmazonas/static/js/runtime-main.38d6e2ca.js.map",
-    "static/css/2.fcbb9a24.chunk.css": "/app-s14scienceAmazonas/static/css/2.fcbb9a24.chunk.css",
-    "static/js/2.a8eb2557.chunk.js": "/app-s14scienceAmazonas/static/js/2.a8eb2557.chunk.js",
-    "static/js/2.a8eb2557.chunk.js.map": "/app-s14scienceAmazonas/static/js/2.a8eb2557.chunk.js.map",
+    "static/css/2.a8a5bd01.chunk.css": "/app-s14scienceAmazonas/static/css/2.a8a5bd01.chunk.css",
+    "static/js/2.8192b2b2.chunk.js": "/app-s14scienceAmazonas/static/js/2.8192b2b2.chunk.js",
+    "static/js/2.8192b2b2.chunk.js.map": "/app-s14scienceAmazonas/static/js/2.8192b2b2.chunk.js.map",
     "index.html": "/app-s14scienceAmazonas/index.html",
-    "precache-manifest.ed979f5c9a09b8ac3693646761180742.js": "/app-s14scienceAmazonas/precache-manifest.ed979f5c9a09b8ac3693646761180742.js",
+    "precache-manifest.41b39ad63b1681beb31d09e4900d664f.js": "/app-s14scienceAmazonas/precache-manifest.41b39ad63b1681beb31d09e4900d664f.js",
     "service-worker.js": "/app-s14scienceAmazonas/service-worker.js",
-    "static/css/2.fcbb9a24.chunk.css.map": "/app-s14scienceAmazonas/static/css/2.fcbb9a24.chunk.css.map",
-    "static/css/main.b13e3aab.chunk.css.map": "/app-s14scienceAmazonas/static/css/main.b13e3aab.chunk.css.map",
-    "static/js/2.a8eb2557.chunk.js.LICENSE.txt": "/app-s14scienceAmazonas/static/js/2.a8eb2557.chunk.js.LICENSE.txt",
+    "static/css/2.a8a5bd01.chunk.css.map": "/app-s14scienceAmazonas/static/css/2.a8a5bd01.chunk.css.map",
+    "static/css/main.1ef4b9d5.chunk.css.map": "/app-s14scienceAmazonas/static/css/main.1ef4b9d5.chunk.css.map",
+    "static/js/2.8192b2b2.chunk.js.LICENSE.txt": "/app-s14scienceAmazonas/static/js/2.8192b2b2.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/app-s14scienceAmazonas/static/media/background.06d5a844.jpg",
-    "static/media/logo.jpg": "/app-s14scienceAmazonas/static/media/logo.814a9544.jpg",
-    "static/media/nls.png": "/app-s14scienceAmazonas/static/media/nls.a4e6b395.png",
-    "static/media/nmbu.png": "/app-s14scienceAmazonas/static/media/nmbu.09d7abd1.png"
+    "static/media/logo.jpg": "/app-s14scienceAmazonas/static/media/logo.51acb74d.jpg",
+    "static/media/nmbu.png": "/app-s14scienceAmazonas/static/media/nmbu.92f0fc56.png"
   },
   "entrypoints": [
     "static/js/runtime-main.38d6e2ca.js",
-    "static/css/2.fcbb9a24.chunk.css",
-    "static/js/2.a8eb2557.chunk.js",
-    "static/css/main.b13e3aab.chunk.css",
-    "static/js/main.b64b4b6b.chunk.js"
+    "static/css/2.a8a5bd01.chunk.css",
+    "static/js/2.8192b2b2.chunk.js",
+    "static/css/main.1ef4b9d5.chunk.css",
+    "static/js/main.ca9c3fe7.chunk.js"
   ]
 }

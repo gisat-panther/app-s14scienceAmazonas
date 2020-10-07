@@ -10,7 +10,7 @@ import './styles/index.scss';
 import Intro from "./components/Intro";
 import Page from "./components/Page";
 
-ReactGA.initialize('UA-59584085-10');
+ReactGA.initialize('UA-59584085-11');
 ReactGA.pageview(window.location.pathname);
 
 ReactDOM.render(

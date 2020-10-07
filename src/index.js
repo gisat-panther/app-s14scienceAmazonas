@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from "./serviceWorker";
 
@@ -8,6 +9,9 @@ import '@gisatcz/ptr-core/lib/styles/base.scss';
 import './styles/index.scss';
 import Intro from "./components/Intro";
 import Page from "./components/Page";
+
+ReactGA.initialize('UA-59584085-10');
+ReactGA.pageview(window.location.pathname);
 
 ReactDOM.render(
 	<div className="ptr-light s14scienceAmazonas" id="s14scienceAmazonas">

@@ -82,7 +82,7 @@
 }
 
 /* Partner cards */
-.s14scienceAmazonas-page .s14scienceAmazonas-partners {
+.s14scienceAmazonas-partners {
   display: flex;
   flex-wrap: wrap;
   max-width: 100rem;
@@ -186,4 +186,16 @@
   font-size: $b1;
   text-align: center;
   color: var(--base100);
+}
+
+@media screen and (max-width: 60rem) {
+  .s14scienceAmazonas-partners {
+	padding: m(1) 0 0;
+  }
+}
+
+@media screen and (max-width: 30rem) {
+  .s14scienceAmazonas-partner-card {
+	margin-right: 0;
+  }
 }

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/app-s14scienceAmazonas/static/css/main.dba7a592.chunk.css",
+    "main.css": "/app-s14scienceAmazonas/static/css/main.d6a7adcd.chunk.css",
     "main.js": "/app-s14scienceAmazonas/static/js/main.8ef8d759.chunk.js",
     "main.js.map": "/app-s14scienceAmazonas/static/js/main.8ef8d759.chunk.js.map",
     "runtime-main.js": "/app-s14scienceAmazonas/static/js/runtime-main.38d6e2ca.js",
@@ -9,10 +9,10 @@
     "static/js/2.8192b2b2.chunk.js": "/app-s14scienceAmazonas/static/js/2.8192b2b2.chunk.js",
     "static/js/2.8192b2b2.chunk.js.map": "/app-s14scienceAmazonas/static/js/2.8192b2b2.chunk.js.map",
     "index.html": "/app-s14scienceAmazonas/index.html",
-    "precache-manifest.f687605dc9247045d0d9a7c01975b94c.js": "/app-s14scienceAmazonas/precache-manifest.f687605dc9247045d0d9a7c01975b94c.js",
+    "precache-manifest.f8c6cc8ad09514128e434d910157c0fc.js": "/app-s14scienceAmazonas/precache-manifest.f8c6cc8ad09514128e434d910157c0fc.js",
     "service-worker.js": "/app-s14scienceAmazonas/service-worker.js",
     "static/css/2.a8a5bd01.chunk.css.map": "/app-s14scienceAmazonas/static/css/2.a8a5bd01.chunk.css.map",
-    "static/css/main.dba7a592.chunk.css.map": "/app-s14scienceAmazonas/static/css/main.dba7a592.chunk.css.map",
+    "static/css/main.d6a7adcd.chunk.css.map": "/app-s14scienceAmazonas/static/css/main.d6a7adcd.chunk.css.map",
     "static/js/2.8192b2b2.chunk.js.LICENSE.txt": "/app-s14scienceAmazonas/static/js/2.8192b2b2.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/app-s14scienceAmazonas/static/media/background.06d5a844.jpg",
     "static/media/logo.jpg": "/app-s14scienceAmazonas/static/media/logo.51acb74d.jpg",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.38d6e2ca.js",
     "static/css/2.a8a5bd01.chunk.css",
     "static/js/2.8192b2b2.chunk.js",
-    "static/css/main.dba7a592.chunk.css",
+    "static/css/main.d6a7adcd.chunk.css",
     "static/js/main.8ef8d759.chunk.js"
   ]
 }

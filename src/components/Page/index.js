@@ -92,7 +92,7 @@ class Page extends React.PureComponent {
                     </div>
                     <div>
                         <h3>Collaborators & Contributors</h3>
-                        <p>Sentinel-1 for Science Amazonas is supported by following external consultants:</p>
+                        <p>Sentinel-1 for Science Amazonas is supported by the following external consultants:</p>
 						<div className="s14scienceAmazonas-contributors">
 							<a href="https://twin-cities.umn.edu/" target="_blank" rel="noreferrer noopener" className="s14scienceAmazonas-contributor-card">
 								<div className="s14scienceAmazonas-contributor-card-img-wrapper">
@@ -137,10 +137,10 @@ class Page extends React.PureComponent {
                         <h2>NEWS</h2>
                         <p>For the latest on the progress of Sentinel-1 for Science Amazonas, the release of new datasets and publications, follow us on:</p>
 						<div className="s14scienceAmazonas-social-networks">
-							<a className="s14scienceAmazonas-social-network linkedin" title="Linkedin"><Icon icon="linkedin"/></a>
-							<a className="s14scienceAmazonas-social-network twitter" title="Twitter"><Icon icon="twitter"/></a>
-							<a className="s14scienceAmazonas-social-network facebook" title="Facebook"><Icon icon="facebook"/></a>
-							<a className="s14scienceAmazonas-social-network researchgate" title="ResearchGate"><Icon icon="researchgate"/></a>
+							<a className="s14scienceAmazonas-social-network linkedin" title="Linkedin" href="https://www.linkedin.com/company/gisat/" target="_blank" rel="noreferrer noopener"><Icon icon="linkedin"/></a>
+							<a className="s14scienceAmazonas-social-network twitter" title="Twitter" href="https://twitter.com/Gisat_cz" target="_blank" rel="noreferrer noopener"><Icon icon="twitter"/></a>
+							{/*<a className="s14scienceAmazonas-social-network facebook" title="Facebook"><Icon icon="facebook"/></a>*/}
+							{/*<a className="s14scienceAmazonas-social-network researchgate" title="ResearchGate"><Icon icon="researchgate"/></a>*/}
 						</div>
                     </div>
                 </section>

@@ -137,11 +137,15 @@
 
 .s14scienceAmazonas-social-network {
   display: block;
-  width: 3rem;
-  height: 3rem;
-  margin-right: 1.5rem;
+  width: 4rem;
+  height: 4rem;
+  margin-right: 2rem;
   color: var(--base70);
   transition: color .2s ease-in-out;
+}
+
+.s14scienceAmazonas-social-network:visited {
+  color: var(--base70);
 }
 
 .s14scienceAmazonas-social-network.linkedin:hover {

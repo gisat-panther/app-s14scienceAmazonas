@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e314574885cb4ed3499392aba9823ec6",
+    "revision": "1d2073e94f70297fb97343ba6ec3ce7e",
     "url": "/app-s14scienceAmazonas/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/app-s14scienceAmazonas/static/css/2.a8a5bd01.chunk.css"
   },
   {
-    "revision": "ce00461ecaa8221bf8a3",
-    "url": "/app-s14scienceAmazonas/static/css/main.1ef4b9d5.chunk.css"
+    "revision": "e47e6cc90b1e22bf78e5",
+    "url": "/app-s14scienceAmazonas/static/css/main.dba7a592.chunk.css"
   },
   {
     "revision": "be18aaf83a884e420cf7",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/app-s14scienceAmazonas/static/js/2.8192b2b2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ce00461ecaa8221bf8a3",
-    "url": "/app-s14scienceAmazonas/static/js/main.ca9c3fe7.chunk.js"
+    "revision": "e47e6cc90b1e22bf78e5",
+    "url": "/app-s14scienceAmazonas/static/js/main.8ef8d759.chunk.js"
   },
   {
     "revision": "08d4049f862962d1206a",

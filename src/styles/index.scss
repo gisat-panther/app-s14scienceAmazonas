@@ -99,14 +99,14 @@
   max-width: 20rem;
   min-width: 15rem;
   background: var(--base0);
-  box-shadow: 0 0 50px 15px rgba(var(--base100rgb), .1);
+  box-shadow: 0 10px 20px rgba(var(--base100rgb), .1);
   transition: box-shadow .2s ease-in-out;
   text-decoration: none;
   cursor: pointer;
 }
 
 .s14scienceAmazonas-partner-card:hover {
-  box-shadow: 0 0 50px 15px rgba(var(--base100rgb), .15);
+  box-shadow: 0 10px 20px rgba(var(--base100rgb), .3);
 }
 
 .s14scienceAmazonas-partner-card > div {
@@ -161,14 +161,14 @@
   flex-direction: column;
   width: 10rem;
   padding: 1rem .5rem;
-  box-shadow: 0 0 50px 25px rgba(var(--base100rgb), .1);
+  box-shadow: 0 5px 10px rgba(var(--base100rgb), .1);
   background: var(--base0);
   transition: box-shadow .2s ease-in-out;
   text-decoration: none;
 }
 
 .s14scienceAmazonas-contributor-card:hover {
-  box-shadow: 0 0 50px 25px rgba(var(--base100rgb), .15);
+  box-shadow: 0 5px 10px rgba(var(--base100rgb), .3);
 }
 
 .s14scienceAmazonas-contributor-card-img-wrapper {

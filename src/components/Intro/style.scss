@@ -14,17 +14,23 @@
   flex-wrap: wrap;
   flex: 1;
   justify-content: flex-end;
+  align-items: flex-end;
   margin-right: 1rem;
+  grid-gap: 1rem;
 }
 
 .s14scienceAmazonas-nav-item {
-  margin-left: m(1);
-  padding: .15rem .5rem;
+  padding: 0 .5rem;
   text-transform: uppercase;
   cursor: pointer;
   letter-spacing: 1px;
   color: var(--base90);
   border-bottom: 2px solid transparent;
+}
+
+.s14scienceAmazonas-nav .ptr-button-caption {
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .s14scienceAmazonas-nav-item:hover {

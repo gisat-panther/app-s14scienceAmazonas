@@ -1,6 +1,7 @@
 import React from 'react';
+import {Icon} from "@gisatcz/ptr-atoms";
 import classnames from 'classnames';
-import logo from "../../assets/img/logo.jpg";
+import logo from "../../assets/img/logo.png";
 
 import './style.scss';
 
@@ -100,6 +101,10 @@ class Intro extends React.PureComponent {
                 <div className="s14scienceAmazonas-nav-item" onClick={this.onNavigate.bind(this, "#results")}>Results</div>
                 <div className="s14scienceAmazonas-nav-item" onClick={this.onNavigate.bind(this, "#news")}>News</div>
                 <div className="s14scienceAmazonas-nav-item" onClick={this.onNavigate.bind(this, "#contact")}>Contact</div>
+                <a className="ptr-button primary" href="https://sen4ama.gisat.cz/" target="_blank">
+                    <div className="ptr-button-caption">Maps</div>
+                    <Icon icon="external-link"/>
+                </a>
             </div>
         );
     }

@@ -16,11 +16,10 @@
   justify-content: flex-end;
   align-items: flex-end;
   margin-right: 1rem;
-  grid-gap: 1rem;
+  grid-gap: 1.25rem;
 }
 
 .s14scienceAmazonas-nav-item {
-  padding: 0 .5rem;
   text-transform: uppercase;
   cursor: pointer;
   letter-spacing: 1px;
@@ -187,10 +186,8 @@
   }
 
   .s14scienceAmazonas-nav-item {
-	margin-bottom: .25rem;
 	font-size: $b1;
-	margin-left: m(2/3);
-	padding: .15rem .5rem;
+	padding: .15rem 0;
 	color: var(--base100);
 	border-bottom: 1px solid transparent;
   }
@@ -261,8 +258,16 @@
     flex-direction: column;
   }
 
-  .s14scienceAmazonas-fixed-intro.open {
-	height: 5rem;
+  //.s14scienceAmazonas-fixed-intro.open {
+	//height: 5rem;
+  //}
+
+  .s14scienceAmazonas-nav {
+    grid-gap: 0;
+  }
+
+  .s14scienceAmazonas-nav-item {
+    margin-right: 1rem;
   }
 
   .s14scienceAmazonas-fixed-intro .s14scienceAmazonas-title {
@@ -271,9 +276,9 @@
 }
 
 @media screen and (max-width: 30rem) {
-  .s14scienceAmazonas-fixed-intro.open {
-    height: 6rem;
-  }
+  //.s14scienceAmazonas-fixed-intro.open {
+  //  height: 8rem;
+  //}
 
   //.s14scienceAmazonas-nav {
 	//display: flex;

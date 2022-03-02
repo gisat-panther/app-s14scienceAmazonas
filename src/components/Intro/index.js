@@ -1,7 +1,7 @@
 import React from 'react';
 import {Icon} from "@gisatcz/ptr-atoms";
 import classnames from 'classnames';
-import logo from "../../assets/img/logo.jpg";
+import logo from "../../assets/img/logo.png";
 
 import './style.scss';
 
